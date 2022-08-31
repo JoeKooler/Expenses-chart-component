@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <section class="balance">
+      <div class="balanceText">
+        <h2>My balance</h2>
+        <h1>$921.48</h1>
+      </div>
+      <img src="./images/logo.svg" alt="" class="logo" />
+    </section>
+    <div class="spending">
+      <h1>Spending - Last 7 days</h1>
+      <div class="chartContainer"></div>
+      <div class="spacer"></div>
+      <div class="balanceSum">
+        <div class="leftGroup">
+          <p>Total this month</p>
+          <h1>$478.33</h1>
+        </div>
+        <div class="rightGroup">
+          <b>+2.4%</b>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">JoeKooler</a>.
+    </footer>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
